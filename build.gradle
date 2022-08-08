@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id "org.jetbrains.intellij" version "0.6.5"
+    id 'org.jetbrains.changelog' version '1.1.2'
+}
+
+artifacts {'yapi'}
+group 'com.dbb'
+version '1.7.9.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    plugins = ["java"]
+    version '2020.1'
+}
+patchPluginXml {
+    untilBuild('213.*')
+    changeNotes """
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>"""
+}
+
+
+test {
+    useJUnitPlatform()
+}

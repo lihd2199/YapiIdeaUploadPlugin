@@ -1,0 +1,22 @@
+<idea-plugin>
+  <id>YapiUpload</id>
+  <name>YapiUpload</name>
+  <version>1.7.9.1</version>
+  <vendor email="chengsheng@qbb6.com" url="http://www.qbb6.com">QBB</vendor>
+  <description>
+      upload api to yapi&lt;br&gt;
+      &lt;em&gt;support dubbo api and api upload&lt;/em&gt;
+    </description>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="201.6668" until-build="213.*"/>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <action id="UploadToYapi" class="com.qbb.interaction.UploadToYapi" text="UploadToYapi" description="UploadToYapi">
+      <add-to-group group-id="EditorLangPopupMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="alt u"/>
+    </action>
+  </actions>
+  <depends>com.intellij.modules.java</depends>
+</idea-plugin>

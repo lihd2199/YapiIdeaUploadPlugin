@@ -1,0 +1,86 @@
+# Changelog
+
+## [Unreleased]
+### 中文
+- 1.8.2: 将java 类型转为json
+- 1.8.1: 支持idea 2020
+- 1.7.9: fixbug
+- 1.7.8: 支持方法上@path 注解 来自定义路径
+- 1.7.7: swagger 支持,swagger mock(@24kpure),fixbug
+- 1.7.6: 支持基本mock
+- 1.7.5: response 支持map,deprecated 注释的方式不上传，循环处理
+- 1.7.4: 兼容老版本,支持统一返回值设置(@zouzou6321),新增默认为类名上传,枚举字段解析(@sun7132568),统一多模块参数,解决枚举打包问题,
+- 1.7.3: 支持map,解决同包问题,去除缓存,支持notblank,支持package menu
+- 1.7.2: 支持LocalDate,LocalTime,LocalDateTime
+- 1.7.1: 支持自定义描述不被覆盖(crazy分支支持),菜单获取流程修改(crazy分支支持), 支持状态@status 注释,支持多级分类(crazy分支支持)
+- 1.7.0: 支持剪切板,支持多link 下载,支持dubbo menu
+- 1.6.9: 支持get 实体类接收
+- 1.6.8: 支持类级别路径引用，支持多个实体接收，支持Response<List<User>> 写法
+- 1.6.7: 支持多种泛型写法，支持@PathVariable
+- 1.6.6: 支持XXXMapping 不写value，支持request param 备注从注释中获取，解决 response <> 在备注中显示 问题
+- 1.6.5: fixbug request 为 List<Long> 等 bug,fix code.zip 概率性一样问题,fix HttpServletRequest&HttpServletResponse 存在下Req_body_type 类型问题
+- 1.6.4: 新增自定义类别
+- 1.6.3: fix 多级泛型问题, 支持@NotNull 注解,支持PutMapping,DeleteMapping,支持 model 接收参数和application/x-www-form-urlencoded
+- 1.6.2: 支持idea 多模块配置
+- 1.6.1: 支持RequestHeader & RequestAttribute
+- 1.6.0: 支持请求参数和响应参数的Java 类下载
+- 1.5:支持{@link} 的常量定义显示在备注
+- 1.4:fixbug,备注中新增接口定义。 
+### ENGLISH
+- 1.8.2: java type convert to json type
+- 1.8.1: support idea 2020
+- 1.7.9: fixbug
+- 1.7.8: support method @path，fix remark bug
+- 1.7.7: support swagger & swagger mock- fixbug
+- 1.7.6: support base mock power 
+- 1.7.5:
+  - Response complete support map
+  - Support deprecated do not upload
+  - Dealing with loop calls
+  - Support path missing / complete
+- 1.7.4:
+  - Compatible with older versions
+  - Support unified return value setting
+  - Class name upload by default
+  - Enumeration field resolution
+  - Unify multi module parameters to solve enumeration packing problem,
+- 1.7.3:
+  - Support map, solve the same package problem, remove cache, support notblank, support package menu
+- 1.7.2:
+  - New support for localdata, Localtime, localdatatime < br >
+- 1.7.1:
+  - Support for custom description not to be overwritten (crazy branch)
+  - Menu acquisition process modification (crazy branch)
+  - Support status @ status annotation
+  - Support multi-level classification (crazy branch)
+- 1.7.0:
+  - In @ menu: questions, Dubbo support
+  - Support for multi link Download
+  - Upload results to the clipboard
+  - Link same package problem
+- 1.6.9:
+  - fix deleteMapping and patchMapping
+  - fix menu bug
+  - Support get entity class receiving
+- 1.6.8:
+  - Support class level path reference
+  - Support multiple entity reception
+  - Support response < list < user > > generics
+- 1.6.7:
+  - Supplementary support for a, B, e, K, V generic writing
+  - Support for pathvariable
+- 1.6.6:
+  - Support xxxmapping without writing value
+  - Solve the problem that response < > displays in the comments
+  - Support request param comments to get from comments
+- 1.6.5:
+  - Fixbug request is list < long > and other bugs
+  - Fix code.zip the same problem of probability
+  - The req? Body? Type problem exists in fix HttpServletRequest & httpservletresponse
+- 1.6.4:
+  - Support class level classification definition
+- 1.6.3: Fix multilevel generic problems
+  - Support @ notnull annotation
+  - Support putmapping, deletemapping,
+  - Support model receiving parameters and application / x-www-form-urlencoded
+  - Support user-defined classification < br >

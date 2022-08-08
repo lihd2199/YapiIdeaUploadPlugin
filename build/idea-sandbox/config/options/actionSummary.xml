@@ -1,0 +1,51 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Undo">
+        <ActionSummary times="3" last="1659617257162" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="21" last="1659663438735" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="10" last="1659664059848" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="2" last="1659664046025" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="5" last="1659663436586" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="21" last="1659663419645" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="1" last="1659617284203" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="5" last="1659664047416" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="1" last="1659617274209" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="2" last="1659664057514" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="8" last="1659663409850" />
+      </entry>
+      <entry key="NewClass">
+        <ActionSummary times="1" last="1659617245061" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="19" last="1659664062383" />
+      </entry>
+      <entry key="WelcomeScreen.CreateNewProject">
+        <ActionSummary times="1" last="1659617057921" />
+      </entry>
+      <entry key="WelcomeScreen.OpenProject">
+        <ActionSummary times="1" last="1659617132906" />
+      </entry>
+    </data>
+  </component>
+</application>
